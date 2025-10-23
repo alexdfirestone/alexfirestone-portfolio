@@ -17,10 +17,10 @@ const experiences = [
     companyUrl: "https://advisergpt.ai",
     period: "September 2024 - October 2025",
     description:
-      "Founded and built an AI-driven SaaS platform for investment managers, focusing on workflow automation and product development.",
+      "Founded and built an AI-native SaaS platform for investment managers, focusing on workflow automation",
     achievements: [
       "Led product development and engineering",
-      "Built AI-powered automation tools",
+      "Built AI-native automation tools",
       "Established initial customer base",
     ],
   },
