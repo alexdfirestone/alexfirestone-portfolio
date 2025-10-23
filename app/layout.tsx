@@ -16,9 +16,8 @@ const geistMono = Geist_Mono({
 })
 
 export const metadata: Metadata = {
-  title: "Alex Firestone — Developer & Designer",
+  title: "Alex Firestone ",
   description: "Personal portfolio of Alex Firestone",
-  generator: "v0.app",
 }
 
 export default function RootLayout({

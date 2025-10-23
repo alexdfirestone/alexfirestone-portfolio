@@ -8,13 +8,13 @@ export function Footer() {
             <h3 className="text-mono-caps font-mono mb-4">Connect</h3>
             <div className="space-y-2">
               <a
-                href="mailto:alex@firestone.dev"
+                href="mailto:alexdfirestone@gmail.com"
                 className="block font-mono text-sm hover:text-accent transition-colors focus:outline-none focus:text-accent"
               >
-                alex@firestone.dev
+                alexdfirestone@gmail.com
               </a>
               <a
-                href="https://github.com/alexfirestone"
+                href="https://github.com/alexdfirestone"
                 className="block font-mono text-sm hover:text-accent transition-colors focus:outline-none focus:text-accent"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -36,16 +36,16 @@ export function Footer() {
           <div id="about">
             <h3 className="text-mono-caps font-mono mb-4">About</h3>
             <p className="text-sm leading-relaxed text-foreground/80">
-              Full-stack developer focused on building clean, performant web applications. Specializing in React,
-              TypeScript, and modern web technologies.
+              Full-stack developer and AI engineer building performant web applications and SaaS with agentic workflows. 
+              Specializing in React, TypeScript, and LLM engineering.
             </p>
           </div>
 
           {/* Location */}
           <div>
             <h3 className="text-mono-caps font-mono mb-4">Location</h3>
-            <p className="font-mono text-sm">San Francisco, CA</p>
-            <p className="font-mono text-sm text-muted-foreground mt-2">Available for remote work</p>
+            <p className="font-mono text-sm">Palo Alto, CA</p>
+            {/* <p className="font-mono text-sm text-muted-foreground mt-2">Available for remote work</p> */}
           </div>
         </div>
 

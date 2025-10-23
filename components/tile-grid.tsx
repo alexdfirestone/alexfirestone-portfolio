@@ -29,7 +29,7 @@ export function TileGrid() {
           language="typescript"
         />
 
-        <IconTile icon="terminal" label="CLI Tools" />
+        <IconTile icon="compass" label="Explore" />
 
         <DiagramTile />
 
@@ -39,7 +39,7 @@ export function TileGrid() {
           accent
         />
 
-        <IconTile icon="layers" label="Architecture" />
+        <IconTile icon="wrench" label="Craft" />
 
         <CodeTile
           code={`// Clean, maintainable code
@@ -51,7 +51,7 @@ export function Component() {
 
         <TextTile title="Ship" description="From concept to production. Fast iterations, solid foundations." />
 
-        <IconTile icon="rocket" label="Deploy" />
+        <IconTile icon="target" label="Impact" />
       </div>
     </section>
   )
