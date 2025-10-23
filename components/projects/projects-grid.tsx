@@ -3,11 +3,11 @@ const projects = [
     name: "AdviserGPT.ai",
     tagline: "Applied AI for investment managers",
     description:
-      "AI-driven SaaS platform for investment managers, focusing on workflow automation using LLMs.",
+      "AI-native SaaS platform for investment managers, focusing on workflow automation",
     status: "Active",
     year: "2024",
     tech: ["Next.js", "React", "TypeScript", "Vercel", "Supabase"],
-    metrics: ["AI-powered automation", "Initial customer base", "Product development"],
+    metrics: ["10+ Enterprise Customers", "Multi-tenant SaaS Architecture", "10x Productivity Gains"],
     link: "https://advisergpt.ai",
   },
   {
