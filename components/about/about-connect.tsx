@@ -1,14 +1,14 @@
 const links = [
-  { label: "GitHub", url: "https://github.com", handle: "@alexfirestone" },
-  { label: "Twitter", url: "https://twitter.com", handle: "@alexfirestone" },
-  { label: "LinkedIn", url: "https://linkedin.com", handle: "alexfirestone" },
-  { label: "Email", url: "mailto:alex@firestone.dev", handle: "alex@firestone.dev" },
+  { label: "GitHub", url: "https://github.com/alexdfirestone", handle: "@alexdfirestone" },
+  { label: "X", url: "https://x.com/alex_firestone_", handle: "@alex_firestone_" },
+  { label: "LinkedIn", url: "https://www.linkedin.com/in/alexfirestone/", handle: "alexfirestone" },
+  { label: "Email", url: "mailto:alexdfirestone@gmail.com", handle: "alexdfirestone@gmail.com" },
 ]
 
 export function AboutConnect() {
   return (
     <section className="max-w-[1600px] mx-auto px-6 py-12 pb-20">
-      <h2 className="text-display text-4xl md:text-5xl mb-12">Connect</h2>
+      <h2 className="text-display text-4xl md:text-5xl mb-12 font-mono">Connect</h2>
       <div className="keyline-thick p-8 md:p-12">
         <p className="text-xl md:text-2xl leading-relaxed mb-8 max-w-3xl">
           Always open to interesting projects, collaborations, and conversations. Let's build something great together.

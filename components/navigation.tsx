@@ -2,8 +2,8 @@ export function Navigation() {
   return (
     <nav className="fixed top-0 left-0 right-0 z-50 bg-background/95 backdrop-blur-sm border-b border-foreground">
       <div className="max-w-[1600px] mx-auto px-4 md:px-6 py-4 flex items-center justify-between">
-        <a href="/" className="text-mono-caps font-mono hover:text-accent transition-colors">
-          af
+        <a href="/" className="text-mono-caps font-mono hover:text-accent transition-colors text-xl font-bold border border-foreground px-3 py-2 hover:bg-accent hover:text-background focus:outline-none focus:bg-accent focus:text-background">
+          AF
         </a>
         <div className="flex items-center gap-4 md:gap-8">
           <a
@@ -13,10 +13,10 @@ export function Navigation() {
             Resume
           </a>
           <a
-            href="/startups"
+            href="/projects"
             className="text-mono-caps font-mono hover:text-accent transition-colors focus:outline-none focus:text-accent"
           >
-            Startups
+            Projects
           </a>
           <a
             href="/about"
